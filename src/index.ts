@@ -1,8 +1,8 @@
-import app from "./src/app";
+import app from "./app";
 import {
   errorHandler,
   notFoundErrorHandler,
-} from "./src/middlewars/apiErrorHandler";
+} from "./middlewars/apiErrorHandler";
 import { config } from "dotenv";
 config();
 
