@@ -9,7 +9,7 @@
     "dev": "nodemon --exec ts-node index.ts",
     "build": "tsc",
     "client": "npm start --prefix frontend",
-    "test": "nyc _mocha --timeout 30000 -r ts-node/register src/test/*.test.ts",
+    "test": "mocha --timeout 30000 -r ts-node/register src/test/*.test.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint --fix --ext .ts,.tsx .",
     "prettier": "prettier src/**/*.ts",
