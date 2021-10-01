@@ -1,6 +1,6 @@
 # weather-rest-api-node
 
-# Tech Stack
+💻 Technologies
 
 > Node.js
 
@@ -16,7 +16,8 @@
 
 > Mocha
 
-# Pre-reqs
+
+📥 Pre-reqs
 
 To build and run this app locally you will need a few things:
 
@@ -24,7 +25,7 @@ To build and run this app locally you will need a few things:
 - Install MongoDB
 - Install VS Code
 
-# Instructions to Run This
+👷 How to run
 
 To run this application, you have to set your own MongoDB Atlas connection string and OpenWeatherAPI app id in environmental variables after that follow the bellow steps.
 
@@ -40,7 +41,7 @@ To run this application, you have to set your own MongoDB Atlas connection strin
 
 > npm run build - for production
 
-# Features
+🚀 Features
 
 > Get weather information of a city from OPenWeatherAPI and store it in MongoDB Atlas
 
