@@ -32,7 +32,7 @@ To build and run this app locally you will need a few things:
 
 To run this application, you have to set your own MongoDB Atlas connection string and OpenWeatherAPI app id in environmental variables after that follow the bellow steps.
 
-> git clone https://github.com/MdSazzadIslam/vopak-coding-challenge-backend.git
+> git clone https://github.com/MdSazzadIslam/weather-rest-api.git
 
 > open the project in vs code or any editor of your favorite
 
