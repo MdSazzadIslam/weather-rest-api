@@ -1,14 +1,12 @@
 import { Request, Response } from "express";
 import { WeatherService } from "../services/weatherService";
-import { Cache } from "../utils/cache";
+
 import moment from "moment";
 class WeatherController {
   public weatherService: WeatherService;
-  public cache: Cache;
   public dt: any;
   constructor() {
     this.weatherService = new WeatherService();
-    this.cache = new Cache();
     this.dt = moment(new Date()).format("DD-MM-YYYY");
   }
 
