@@ -126,6 +126,7 @@ class WeatherController {
         };
 
         const result = await this.weatherService.createWeather(data);
+
         if (result) {
           return res.status(200).send({ message: "success", payload: result });
         } else {
