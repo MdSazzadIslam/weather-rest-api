@@ -83,7 +83,9 @@ class WeatherController {
         return res.status(200).send({ message: "success", payload: isExists });
       } else {
         //Now fetching weather information from OpenWeather based on CITY
-        const response = await this.weatherService.getDataFromOpenWeather(city);
+        const response = await this.weatherService.getDataFromOpenWeatherAPI(
+          city
+        );
 
         //Extracting data from the response
         const country: string = response.sys.country;
