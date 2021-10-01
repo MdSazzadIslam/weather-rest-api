@@ -26,7 +26,7 @@ To build and run this app locally you will need a few things:
 
 # Instructions to Run This
 
-To run this application, you have to set your own MongoDB Atlas connection string and OpenWeatherAPI app id in environmental variables.
+To run this application, you have to set your own MongoDB Atlas connection string and OpenWeatherAPI app id in environmental variables after that follow the bellow steps.
 
 > git clone
 
